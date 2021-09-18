@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18106C1820EF0E980054777D /* BookCV_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18106C1720EF0E980054777D /* BookCV_Helper.swift */; };
+		18106C1B20EF10D60054777D /* publicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18106C1A20EF10D60054777D /* publicVariables.swift */; };
+		18106C2020EF13BE0054777D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18106C1F20EF13BE0054777D /* Book.swift */; };
 		186A94E120E77C4F00A78588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A94E020E77C4F00A78588 /* AppDelegate.swift */; };
 		186A94E320E77C4F00A78588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A94E220E77C4F00A78588 /* ViewController.swift */; };
 		186A94E620E77C4F00A78588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A94E420E77C4F00A78588 /* Main.storyboard */; };
@@ -14,6 +17,16 @@
 		186A94EB20E77C5000A78588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A94E920E77C5000A78588 /* LaunchScreen.storyboard */; };
 		186A94F620E77C5100A78588 /* bedrockbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A94F520E77C5100A78588 /* bedrockbookTests.swift */; };
 		186A950120E77C5100A78588 /* bedrockbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A950020E77C5100A78588 /* bedrockbookUITests.swift */; };
+		18DE019620E7EB720086DC61 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE019520E7EB720086DC61 /* myCell.swift */; };
+		40523D24210B060700675BC4 /* BorrowReturn_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40523D23210B060700675BC4 /* BorrowReturn_Helper.swift */; };
+		40523D28210B06A200675BC4 /* Navigation_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40523D27210B06A200675BC4 /* Navigation_Helper.swift */; };
+		4059E7B620FD991F002B8BF1 /* BookDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4059E7B520FD991F002B8BF1 /* BookDetailVC.swift */; };
+		4078A0FF211D5E3B009663E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4078A0FE211D5E3B009663E1 /* GoogleService-Info.plist */; };
+		409F7739210ACBC20031ADCF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7738210ACBC10031ADCF /* LoginVC.swift */; };
+		40C10E112106D1A200A1C69B /* Firebase_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C10E102106D1A200A1C69B /* Firebase_Helper.swift */; };
+		89362585DE69FC8CC698BE1C /* Pods_bedrockbookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2BFC7A65CEF891B10A5F69 /* Pods_bedrockbookUITests.framework */; };
+		E30C0910B748CA4FB9862CE9 /* Pods_bedrockbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75D5F2400D3EB3E384996DA /* Pods_bedrockbook.framework */; };
+		E950087C8F38AE669686D54B /* Pods_bedrockbookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BE836349DA02F1C64B7163 /* Pods_bedrockbookTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18106C1720EF0E980054777D /* BookCV_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCV_Helper.swift; sourceTree = "<group>"; };
+		18106C1A20EF10D60054777D /* publicVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = publicVariables.swift; sourceTree = "<group>"; };
+		18106C1F20EF13BE0054777D /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		186A94DD20E77C4F00A78588 /* bedrockbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bedrockbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186A94E020E77C4F00A78588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186A94E220E77C4F00A78588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,23 @@
 		186A94FC20E77C5100A78588 /* bedrockbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bedrockbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186A950020E77C5100A78588 /* bedrockbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bedrockbookUITests.swift; sourceTree = "<group>"; };
 		186A950220E77C5100A78588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE019520E7EB720086DC61 /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		2D1511DFC81F7C35AFAE1A44 /* Pods-bedrockbookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bedrockbookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bedrockbookUITests/Pods-bedrockbookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40523D23210B060700675BC4 /* BorrowReturn_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowReturn_Helper.swift; sourceTree = "<group>"; };
+		40523D27210B06A200675BC4 /* Navigation_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Helper.swift; sourceTree = "<group>"; };
+		4059E7B520FD991F002B8BF1 /* BookDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailVC.swift; sourceTree = "<group>"; };
+		4078A0FE211D5E3B009663E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		408ED067211BECD300765C4B /* bedrockbook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bedrockbook.entitlements; sourceTree = "<group>"; };
+		409F7738210ACBC10031ADCF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		40C10E102106D1A200A1C69B /* Firebase_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_Helper.swift; sourceTree = "<group>"; };
+		54BE836349DA02F1C64B7163 /* Pods_bedrockbookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bedrockbookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5809FCF7577D8EF84B2FC6CB /* Pods-bedrockbookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bedrockbookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bedrockbookUITests/Pods-bedrockbookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B19B7380FA228AD5A047A2F /* Pods-bedrockbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bedrockbook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bedrockbook/Pods-bedrockbook.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2BFC7A65CEF891B10A5F69 /* Pods_bedrockbookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bedrockbookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAB6C8770E332F8E6DDDF44 /* Pods-bedrockbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bedrockbook.release.xcconfig"; path = "Pods/Target Support Files/Pods-bedrockbook/Pods-bedrockbook.release.xcconfig"; sourceTree = "<group>"; };
+		84B90B2DD8FA00E496CF53A5 /* Pods-bedrockbookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bedrockbookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bedrockbookTests/Pods-bedrockbookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97532A29745539EF85C95081 /* Pods-bedrockbookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bedrockbookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bedrockbookTests/Pods-bedrockbookTests.release.xcconfig"; sourceTree = "<group>"; };
+		A75D5F2400D3EB3E384996DA /* Pods_bedrockbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bedrockbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30C0910B748CA4FB9862CE9 /* Pods_bedrockbook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E950087C8F38AE669686D54B /* Pods_bedrockbookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +103,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89362585DE69FC8CC698BE1C /* Pods_bedrockbookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18106C1620EF0E540054777D /* ViewController Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18106C1720EF0E980054777D /* BookCV_Helper.swift */,
+				40C10E102106D1A200A1C69B /* Firebase_Helper.swift */,
+				40523D23210B060700675BC4 /* BorrowReturn_Helper.swift */,
+				40523D27210B06A200675BC4 /* Navigation_Helper.swift */,
+			);
+			path = "ViewController Helper";
+			sourceTree = "<group>";
+		};
+		18106C1920EF105E0054777D /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18DE019520E7EB720086DC61 /* myCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		18106C1E20EF13760054777D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18106C1F20EF13BE0054777D /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		186A94D420E77C4F00A78588 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +144,8 @@
 				186A94F420E77C5100A78588 /* bedrockbookTests */,
 				186A94FF20E77C5100A78588 /* bedrockbookUITests */,
 				186A94DE20E77C4F00A78588 /* Products */,
+				455098DE94C6F790E051223F /* Pods */,
+				913BAA1C8EE7C68F140F3254 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +162,20 @@
 		186A94DF20E77C4F00A78588 /* bedrockbook */ = {
 			isa = PBXGroup;
 			children = (
+				408ED067211BECD300765C4B /* bedrockbook.entitlements */,
+				18106C1E20EF13760054777D /* Models */,
 				186A94E020E77C4F00A78588 /* AppDelegate.swift */,
+				18106C1920EF105E0054777D /* Custom Cell */,
+				18106C1620EF0E540054777D /* ViewController Helper */,
 				186A94E220E77C4F00A78588 /* ViewController.swift */,
 				186A94E420E77C4F00A78588 /* Main.storyboard */,
+				4059E7B520FD991F002B8BF1 /* BookDetailVC.swift */,
 				186A94E720E77C5000A78588 /* Assets.xcassets */,
 				186A94E920E77C5000A78588 /* LaunchScreen.storyboard */,
 				186A94EC20E77C5000A78588 /* Info.plist */,
+				18106C1A20EF10D60054777D /* publicVariables.swift */,
+				409F7738210ACBC10031ADCF /* LoginVC.swift */,
+				4078A0FE211D5E3B009663E1 /* GoogleService-Info.plist */,
 			);
 			path = bedrockbook;
 			sourceTree = "<group>";
@@ -125,6 +198,29 @@
 			path = bedrockbookUITests;
 			sourceTree = "<group>";
 		};
+		455098DE94C6F790E051223F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B19B7380FA228AD5A047A2F /* Pods-bedrockbook.debug.xcconfig */,
+				7EAB6C8770E332F8E6DDDF44 /* Pods-bedrockbook.release.xcconfig */,
+				84B90B2DD8FA00E496CF53A5 /* Pods-bedrockbookTests.debug.xcconfig */,
+				97532A29745539EF85C95081 /* Pods-bedrockbookTests.release.xcconfig */,
+				2D1511DFC81F7C35AFAE1A44 /* Pods-bedrockbookUITests.debug.xcconfig */,
+				5809FCF7577D8EF84B2FC6CB /* Pods-bedrockbookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		913BAA1C8EE7C68F140F3254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A75D5F2400D3EB3E384996DA /* Pods_bedrockbook.framework */,
+				54BE836349DA02F1C64B7163 /* Pods_bedrockbookTests.framework */,
+				6D2BFC7A65CEF891B10A5F69 /* Pods_bedrockbookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186A950520E77C5100A78588 /* Build configuration list for PBXNativeTarget "bedrockbook" */;
 			buildPhases = (
+				C3BC690AA5305CE5DBDC2199 /* [CP] Check Pods Manifest.lock */,
 				186A94D920E77C4F00A78588 /* Sources */,
 				186A94DA20E77C4F00A78588 /* Frameworks */,
 				186A94DB20E77C4F00A78588 /* Resources */,
+				D439CD3630B266EC8FFF7225 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186A950820E77C5100A78588 /* Build configuration list for PBXNativeTarget "bedrockbookTests" */;
 			buildPhases = (
+				21BD785D28C70C2CC9AC63BD /* [CP] Check Pods Manifest.lock */,
 				186A94ED20E77C5100A78588 /* Sources */,
 				186A94EE20E77C5100A78588 /* Frameworks */,
 				186A94EF20E77C5100A78588 /* Resources */,
@@ -167,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186A950B20E77C5100A78588 /* Build configuration list for PBXNativeTarget "bedrockbookUITests" */;
 			buildPhases = (
+				1F8AE5EF0E7F78377952D07C /* [CP] Check Pods Manifest.lock */,
 				186A94F820E77C5100A78588 /* Sources */,
 				186A94F920E77C5100A78588 /* Frameworks */,
 				186A94FA20E77C5100A78588 /* Resources */,
@@ -189,10 +289,15 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Nguyenxloc;
+				ORGANIZATIONNAME = Quang;
 				TargetAttributes = {
 					186A94DC20E77C4F00A78588 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					186A94F020E77C5100A78588 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -231,6 +336,7 @@
 			files = (
 				186A94EB20E77C5000A78588 /* LaunchScreen.storyboard in Resources */,
 				186A94E820E77C5000A78588 /* Assets.xcassets in Resources */,
+				4078A0FF211D5E3B009663E1 /* GoogleService-Info.plist in Resources */,
 				186A94E620E77C4F00A78588 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +357,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F8AE5EF0E7F78377952D07C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bedrockbookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21BD785D28C70C2CC9AC63BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bedrockbookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3BC690AA5305CE5DBDC2199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bedrockbook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D439CD3630B266EC8FFF7225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bedrockbook/Pods-bedrockbook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Armchair/Armchair.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FloatRatingView/FloatRatingView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UIImageColors/UIImageColors.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Armchair.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FloatRatingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIImageColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bedrockbook/Pods-bedrockbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		186A94D920E77C4F00A78588 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18106C2020EF13BE0054777D /* Book.swift in Sources */,
+				409F7739210ACBC20031ADCF /* LoginVC.swift in Sources */,
+				18106C1B20EF10D60054777D /* publicVariables.swift in Sources */,
 				186A94E320E77C4F00A78588 /* ViewController.swift in Sources */,
+				40523D28210B06A200675BC4 /* Navigation_Helper.swift in Sources */,
+				18DE019620E7EB720086DC61 /* myCell.swift in Sources */,
+				4059E7B620FD991F002B8BF1 /* BookDetailVC.swift in Sources */,
+				40C10E112106D1A200A1C69B /* Firebase_Helper.swift in Sources */,
+				18106C1820EF0E980054777D /* BookCV_Helper.swift in Sources */,
 				186A94E120E77C4F00A78588 /* AppDelegate.swift in Sources */,
+				40523D24210B060700675BC4 /* BorrowReturn_Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,40 +648,51 @@
 		};
 		186A950620E77C5100A78588 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B19B7380FA228AD5A047A2F /* Pods-bedrockbook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = bedrockbook/bedrockbook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3FX369Q32;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = bedrockbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.loc.bedrockbook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bedrock.bedrockshelves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		186A950720E77C5100A78588 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB6C8770E332F8E6DDDF44 /* Pods-bedrockbook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = bedrockbook/bedrockbook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3FX369Q32;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = bedrockbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.loc.bedrockbook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bedrock.bedrockshelves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		186A950920E77C5100A78588 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B90B2DD8FA00E496CF53A5 /* Pods-bedrockbookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +713,7 @@
 		};
 		186A950A20E77C5100A78588 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97532A29745539EF85C95081 /* Pods-bedrockbookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +734,7 @@
 		};
 		186A950C20E77C5100A78588 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1511DFC81F7C35AFAE1A44 /* Pods-bedrockbookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +754,7 @@
 		};
 		186A950D20E77C5100A78588 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5809FCF7577D8EF84B2FC6CB /* Pods-bedrockbookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
